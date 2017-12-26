@@ -1,0 +1,177 @@
+#LIBERAL IDEOLOGIES#
+	market_liberals = {
+		types = {
+		market_liberal_subtype = {
+    #TO DO
+      }
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_MKTLB_1"
+			"FACTION_NAME_MKTLB_2"
+			"FACTION_NAME_MKTLB_3"
+			"FACTION_NAME_MKTLB_4"
+			"FACTION_NAME_MKTLB_5
+			"FACTION_NAME_MKTLB_6"
+		}
+		color = { 255 243 66 }
+		rules = {
+			can_force_government = no
+			can_puppet = yes
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.75
+		}
+		ai_democratic = yes		
+		can_be_boosted = no
+	}
+
+  progressive_liberals = {
+		types = {
+		progressive_liberals_subtype = {
+    #TO DO
+      }
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_PGLB_1"
+			"FACTION_NAME_PGTLB_2"
+			"FACTION_NAME_PGTLB_3"
+			"FACTION_NAME_PGTLB_4"
+			"FACTION_NAME_PGTLB_5
+			"FACTION_NAME_PGTLB_6"
+		}
+		color = { 255 201 65 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.75
+		}
+		ai_democratic = yes		
+		can_be_boosted = no
+	}
+  
+   social_liberals = {
+		types = {
+		social_liberals_subtype = {
+    #TO DO
+      }
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCLB_1"
+			"FACTION_NAME_SOCLB_2"
+			"FACTION_NAME_SOCLB_3"
+			"FACTION_NAME_SOCLB_4"
+			"FACTION_NAME_SOCLB_5
+			"FACTION_NAME_SOCLB_6"
+		}
+		color = { 255 182 45 }
+		rules = {
+			can_force_government = yes
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.75
+		}
+		ai_democratic = yes		
+		can_be_boosted = no
+	}
+  
+  #CONSERVATIVE IDEOLOGIES
+  
+  	capitalist_conservative = {
+		types = {
+		capitalist_conservative_subtype = {
+    #TO DO
+      }
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_CAPCN_1"
+			"FACTION_NAME_CAPCN_2"
+			"FACTION_NAME_CAPCN_3"
+			"FACTION_NAME_CAPCN_4"
+			"FACTION_NAME_CAPCN_5
+			"FACTION_NAME_CAPCN_6"
+		}
+		color = { 16 52 166 }
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.75
+		}
+		ai_democratic = yes		
+		can_be_boosted = no
+	}
+
+  social_conservative = {
+		types = {
+		social_conservative_subtype = {
+    #TO DO
+      }
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCCN_1"
+			"FACTION_NAME_SOCCN_2"
+			"FACTION_NAME_SOCCN_3"
+			"FACTION_NAME_SOCCN_4"
+			"FACTION_NAME_SOCCN_5
+			"FACTION_NAME_SOCCN_6"
+		}
+		color = { 0 35 185 }
+		rules = {
+			can_force_government = yes
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.75
+		}
+		ai_democratic = yes		
+		can_be_boosted = no
+	}
+  
+   authoritarian_conservative = {
+		types = {
+		authoritarian_conservative_subtype = {
+    #TO DO
+      }
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_AUTHCN_1"
+			"FACTION_NAME_AUTHCN_2"
+			"FACTION_NAME_AUTHCN_3"
+			"FACTION_NAME_AUTHCN_4"
+			"FACTION_NAME_AUTHCN_5
+			"FACTION_NAME_AUTHCN_6"
+		}
+		color = { 0 49 83 }
+		rules = {
+			can_force_government = yes
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.75
+		}
+		ai_democratic = yes		
+		can_be_boosted = no
+	}
+##TO BE CONTINUED##
